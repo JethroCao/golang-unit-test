@@ -1,0 +1,5 @@
+{"level":"INFO","time":"2022-11-28 21:51:49.362","caller":"database/database.go:24","message":"initDb, start","serviceName":"demoProject"}
+{"level":"INFO","time":"2022-11-28 21:51:49.426","caller":"database/database.go:40","message":"initDb, end","serviceName":"demoProject"}
+{"level":"INFO","time":"2022-11-28 21:51:49.427","caller":"repository/user_repository.go:18","message":"UserRepository GetUserById","serviceName":"demoProject","userId":1}
+{"level":"INFO","time":"2022-11-28 21:51:49.427","caller":"repository/user_repository.go:18","message":"UserRepository GetUserById","serviceName":"demoProject","userId":1}
+{"level":"ERROR","time":"2022-11-28 21:51:49.427","caller":"repository/user_repository.go:22","message":"GetUserById database error","serviceName":"demoProject","error":"失败"}

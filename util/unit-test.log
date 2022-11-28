@@ -1,0 +1,2 @@
+{"level":"INFO","time":"2022-11-28 21:51:48.796","caller":"database/database.go:24","message":"initDb, start","serviceName":"demoProject"}
+{"level":"INFO","time":"2022-11-28 21:51:48.851","caller":"database/database.go:40","message":"initDb, end","serviceName":"demoProject"}

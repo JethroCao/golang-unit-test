@@ -1,0 +1,7 @@
+{"level":"INFO","time":"2022-11-28 21:51:49.074","caller":"database/database.go:24","message":"initDb, start","serviceName":"demoProject"}
+{"level":"INFO","time":"2022-11-28 21:51:49.132","caller":"database/database.go:40","message":"initDb, end","serviceName":"demoProject"}
+{"level":"INFO","time":"2022-11-28 21:51:49.133","caller":"service/user_service.go:21","message":"UserService GetUserById","serviceName":"demoProject","userId":1}
+{"level":"INFO","time":"2022-11-28 21:51:49.133","caller":"service/user_service_test.go:29","message":"GetUserById: 执行成功, ApplyMethod repository.UserRepository GetUserById","serviceName":"demoProject","user":{"Id":1,"Name":"李四"}}
+{"level":"INFO","time":"2022-11-28 21:51:49.134","caller":"service/user_service.go:21","message":"UserService GetUserById","serviceName":"demoProject","userId":1}
+{"level":"INFO","time":"2022-11-28 21:51:49.134","caller":"service/user_service_test.go:42","message":"GetUserById: 执行失败, ApplyMethod repository.UserRepository GetUserById","serviceName":"demoProject","userId":1}
+{"level":"ERROR","time":"2022-11-28 21:51:49.134","caller":"service/user_service.go:25","message":"UserService GetUserById, s.userRepository.GetUserById error","serviceName":"demoProject","error":"失败"}
